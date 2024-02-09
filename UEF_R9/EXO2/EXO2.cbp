@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="EXO2" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/test2" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/test2" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="INCLUDE/ALLOC.H" />
+		<Unit filename="INCLUDE/ASSERT.H" />
+		<Unit filename="INCLUDE/BCD.H" />
+		<Unit filename="INCLUDE/BIOS.H" />
+		<Unit filename="INCLUDE/COMPLEX.H" />
+		<Unit filename="INCLUDE/CONIO.H" />
+		<Unit filename="INCLUDE/CTYPE.H" />
+		<Unit filename="INCLUDE/DIR.H" />
+		<Unit filename="INCLUDE/DOS.H" />
+		<Unit filename="INCLUDE/ERRNO.H" />
+		<Unit filename="INCLUDE/FCNTL.H" />
+		<Unit filename="INCLUDE/FLOAT.H" />
+		<Unit filename="INCLUDE/FSTREAM.H" />
+		<Unit filename="INCLUDE/GENERIC.H" />
+		<Unit filename="INCLUDE/GRAPHICS.H" />
+		<Unit filename="INCLUDE/IO.H" />
+		<Unit filename="INCLUDE/IOMANIP.H" />
+		<Unit filename="INCLUDE/IOSTREAM.H" />
+		<Unit filename="INCLUDE/LIMITS.H" />
+		<Unit filename="INCLUDE/LOCALE.H" />
+		<Unit filename="INCLUDE/MATH.H" />
+		<Unit filename="INCLUDE/MEM.H" />
+		<Unit filename="INCLUDE/PROCESS.H" />
+		<Unit filename="INCLUDE/SETJMP.H" />
+		<Unit filename="INCLUDE/SHARE.H" />
+		<Unit filename="INCLUDE/SIGNAL.H" />
+		<Unit filename="INCLUDE/STDARG.H" />
+		<Unit filename="INCLUDE/STDDEF.H" />
+		<Unit filename="INCLUDE/STDIO.H" />
+		<Unit filename="INCLUDE/STDIOSTR.H" />
+		<Unit filename="INCLUDE/STDLIB.H" />
+		<Unit filename="INCLUDE/STREAM.H" />
+		<Unit filename="INCLUDE/STRING.H" />
+		<Unit filename="INCLUDE/STRSTREA.H" />
+		<Unit filename="INCLUDE/SYS/STAT.H" />
+		<Unit filename="INCLUDE/SYS/TIMEB.H" />
+		<Unit filename="INCLUDE/SYS/TYPES.H" />
+		<Unit filename="INCLUDE/TIME.H" />
+		<Unit filename="INCLUDE/VALUES.H" />
+		<Unit filename="app_cfg.h" />
+		<Unit filename="app_hooks.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="bsp_cpu.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="cpu.h" />
+		<Unit filename="cpu_c.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="cpu_cache.h" />
+		<Unit filename="cpu_cfg.h" />
+		<Unit filename="cpu_core.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="cpu_core.h" />
+		<Unit filename="cpu_def.h" />
+		<Unit filename="includes.h" />
+		<Unit filename="lib_ascii.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib_ascii.h" />
+		<Unit filename="lib_cfg.h" />
+		<Unit filename="lib_def.h" />
+		<Unit filename="lib_math.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib_math.h" />
+		<Unit filename="lib_mem.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib_mem.h" />
+		<Unit filename="lib_str.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib_str.h" />
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="os.h" />
+		<Unit filename="os_cfg.h" />
+		<Unit filename="os_cfg_r.h" />
+		<Unit filename="os_core.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="os_cpu_c.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="os_dbg_r.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="os_flag.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="os_mbox.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="os_mem.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="os_mutex.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="os_q.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="os_sem.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="os_task.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="os_time.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="os_tmr.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="os_trace.h" />
+		<Unit filename="pc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="pc.h" />
+		<Unit filename="timeAPI.h" />
+		<Unit filename="ucos_ii.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ucos_ii.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

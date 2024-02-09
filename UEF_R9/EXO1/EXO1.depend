@@ -1,0 +1,1167 @@
+# depslib dependency file v1.0
+1575546475 source:c:\tempo\master\test2\exo1\app_hooks.c
+	"os.h"
+
+1503993804 c:\tempo\master\test2\exo1\os.h
+	"ucos_ii.h"
+
+1575839666 c:\tempo\master\test2\exo1\ucos_ii.h
+	"app_cfg.h"
+	"os_cfg.h"
+	"os_cpu.h"
+	"os_trace.h"
+
+1576103876 c:\tempo\master\test2\exo1\app_cfg.h
+	<stdarg.h>
+	<stdio.h>
+
+1575874195 c:\tempo\master\test2\exo1\os_cfg.h
+
+1575838079 c:\tempo\master\test2\exo1\os_cpu.h
+	"cpu.h"
+
+1575545810 c:\tempo\master\test2\exo1\cpu.h
+	"cpu_def.h"
+	"cpu_cfg.h"
+
+1503993724 c:\tempo\master\test2\exo1\cpu_def.h
+
+1504269208 c:\tempo\master\test2\exo1\cpu_cfg.h
+
+1575546808 c:\tempo\master\test2\exo1\os_trace.h
+	"os_cfg.h"
+	<os_trace_events.h>
+
+1575546491 source:c:\tempo\master\test2\exo1\bsp_cpu.c
+	"cpu_core.h"
+	<windows.h>
+
+1575546662 c:\tempo\master\test2\exo1\cpu_core.h
+	"cpu.h"
+	"lib_def.h"
+	"cpu_cfg.h"
+	"lib_mem.h"
+	"lib_str.h"
+
+1575546691 c:\tempo\master\test2\exo1\lib_def.h
+	"cpu_def.h"
+	"cpu.h"
+
+1575546755 c:\tempo\master\test2\exo1\lib_mem.h
+	"cpu.h"
+	"cpu_core.h"
+	"lib_def.h"
+	"lib_cfg.h"
+
+1504269208 c:\tempo\master\test2\exo1\lib_cfg.h
+
+1575546817 c:\tempo\master\test2\exo1\lib_str.h
+	"cpu.h"
+	"lib_def.h"
+	"lib_ascii.h"
+	"lib_cfg.h"
+	<stdio.h>
+
+1575546797 c:\tempo\master\test2\exo1\lib_ascii.h
+	"cpu.h"
+	"lib_def.h"
+
+1575546631 source:c:\tempo\master\test2\exo1\cpu_c.c
+	"cpu.h"
+	"cpu_core.h"
+	<windows.h>
+	<stdio.h>
+	<intrin.h>
+
+1503993724 source:c:\tempo\master\test2\exo1\cpu_core.c
+	"cpu_core.h"
+	"cpu_cache.h"
+
+1503993724 c:\tempo\master\test2\exo1\cpu_cache.h
+	<cpu.h>
+	<lib_def.h>
+	<cpu_cfg.h>
+
+1575545769 source:c:\tempo\master\test2\exo1\lib_ascii.c
+	"lib_ascii.h"
+
+1575545826 source:c:\tempo\master\test2\exo1\lib_math.c
+	"lib_math.h"
+
+1575546837 c:\tempo\master\test2\exo1\lib_math.h
+	"cpu.h"
+	"cpu_core.h"
+	"lib_def.h"
+
+1503993786 source:c:\tempo\master\test2\exo1\lib_mem.c
+	"lib_mem.h"
+	"lib_math.h"
+	"lib_str.h"
+
+1575546851 source:c:\tempo\master\test2\exo1\lib_str.c
+	"lib_str.h"
+
+1576106405 source:c:\tempo\master\test2\exo1\main.c
+	"cpu.h"
+	"lib_mem.h"
+	"os.h"
+	"includes.h"
+	"app_cfg.h"
+	"pc.h"
+
+1575857410 c:\tempo\master\test2\exo1\includes.h
+	<stdio.h>
+	<string.h>
+	<ctype.h>
+	<stdlib.h>
+	<conio.h>
+	<time.h>
+	<setjmp.h>
+	<windows.h>
+	<mmsystem.h>
+	"INCLUDE/ALLOC.H"
+	"INCLUDE/ASSERT.H"
+	"INCLUDE/BIOS.H"
+	"INCLUDE/CONIO.H"
+	"INCLUDE/DIR.H"
+	"INCLUDE/DOS.H"
+	"INCLUDE/ERRNO.H"
+	"INCLUDE/FCNTL.H"
+	"INCLUDE/FLOAT.H"
+	"INCLUDE/GENERIC.H"
+	"INCLUDE/LIMITS.H"
+	"INCLUDE/LOCALE.H"
+	"INCLUDE/MATH.H"
+	"INCLUDE/MEM.H"
+	"INCLUDE/PROCESS.H"
+	"INCLUDE/SHARE.H"
+	"INCLUDE/SIGNAL.H"
+	"INCLUDE/STDDEF.H"
+	"INCLUDE/STRING.H"
+	"INCLUDE/VALUES.H"
+	"os_cpu.h"
+	"os_cfg.h"
+	"ucos_ii.h"
+	"pc.h"
+
+667699260 c:\tempo\master\test2\exo1\include\alloc.h
+
+667699260 c:\tempo\master\test2\exo1\include\assert.h
+
+667699260 c:\tempo\master\test2\exo1\include\bios.h
+
+667699260 c:\tempo\master\test2\exo1\include\conio.h
+
+667699260 c:\tempo\master\test2\exo1\include\dir.h
+
+1575856558 c:\tempo\master\test2\exo1\include\dos.h
+
+667699260 c:\tempo\master\test2\exo1\include\errno.h
+
+667699260 c:\tempo\master\test2\exo1\include\fcntl.h
+
+667699260 c:\tempo\master\test2\exo1\include\float.h
+
+667699260 c:\tempo\master\test2\exo1\include\generic.h
+
+667699260 c:\tempo\master\test2\exo1\include\limits.h
+
+667699260 c:\tempo\master\test2\exo1\include\locale.h
+
+667699260 c:\tempo\master\test2\exo1\include\math.h
+
+667699260 c:\tempo\master\test2\exo1\include\mem.h
+
+667699260 c:\tempo\master\test2\exo1\include\process.h
+
+667699260 c:\tempo\master\test2\exo1\include\share.h
+
+667699260 c:\tempo\master\test2\exo1\include\signal.h
+
+667699260 c:\tempo\master\test2\exo1\include\stddef.h
+
+667699260 c:\tempo\master\test2\exo1\include\string.h
+
+667699260 c:\tempo\master\test2\exo1\include\values.h
+
+1164208598 c:\tempo\master\test2\exo1\pc.h
+
+1575838267 source:c:\tempo\master\test2\exo1\os_core.c
+	"ucos_ii.h"
+
+1575840652 source:c:\tempo\master\test2\exo1\os_cpu_c.c
+	"lib_def.h"
+	"ucos_ii.h"
+	<windows.h>
+	<mmsystem.h>
+	<stdio.h>
+
+1575546933 source:c:\tempo\master\test2\exo1\os_dbg_r.c
+	"ucos_ii.h"
+
+1575546913 source:c:\tempo\master\test2\exo1\os_flag.c
+	"ucos_ii.h"
+
+1575546953 source:c:\tempo\master\test2\exo1\os_mbox.c
+	"ucos_ii.h"
+
+1575546943 source:c:\tempo\master\test2\exo1\os_mem.c
+	"ucos_ii.h"
+
+1575546976 source:c:\tempo\master\test2\exo1\os_mutex.c
+	"ucos_ii.h"
+
+1575546965 source:c:\tempo\master\test2\exo1\os_q.c
+	"ucos_ii.h"
+
+1575546995 source:c:\tempo\master\test2\exo1\os_sem.c
+	"ucos_ii.h"
+
+1575547005 source:c:\tempo\master\test2\exo1\os_task.c
+	"ucos_ii.h"
+
+1576105108 source:c:\tempo\master\test2\exo1\os_time.c
+	"ucos_ii.h"
+
+1575547036 source:c:\tempo\master\test2\exo1\os_tmr.c
+	"ucos_ii.h"
+
+1575861011 source:c:\tempo\master\test2\exo1\pc.c
+	"includes.h"
+
+1575839801 source:c:\tempo\master\test2\exo1\ucos_ii.c
+	"ucos_ii.h"
+
+1575546475 source:d:\enseignements\2020_2021\master_esa\tp1_2019_2020\exo1\app_hooks.c
+	"os.h"
+
+1503993804 d:\enseignements\2020_2021\master_esa\tp1_2019_2020\exo1\os.h
+	"ucos_ii.h"
+
+1575839666 d:\enseignements\2020_2021\master_esa\tp1_2019_2020\exo1\ucos_ii.h
+	"app_cfg.h"
+	"os_cfg.h"
+	"os_cpu.h"
+	"os_trace.h"
+
+1576103876 d:\enseignements\2020_2021\master_esa\tp1_2019_2020\exo1\app_cfg.h
+	<stdarg.h>
+	<stdio.h>
+
+1575874195 d:\enseignements\2020_2021\master_esa\tp1_2019_2020\exo1\os_cfg.h
+
+1575838079 d:\enseignements\2020_2021\master_esa\tp1_2019_2020\exo1\os_cpu.h
+	"cpu.h"
+
+1575545810 d:\enseignements\2020_2021\master_esa\tp1_2019_2020\exo1\cpu.h
+	"cpu_def.h"
+	"cpu_cfg.h"
+
+1503993724 d:\enseignements\2020_2021\master_esa\tp1_2019_2020\exo1\cpu_def.h
+
+1504269208 d:\enseignements\2020_2021\master_esa\tp1_2019_2020\exo1\cpu_cfg.h
+
+1575546808 d:\enseignements\2020_2021\master_esa\tp1_2019_2020\exo1\os_trace.h
+	"os_cfg.h"
+	<os_trace_events.h>
+
+1575546491 source:d:\enseignements\2020_2021\master_esa\tp1_2019_2020\exo1\bsp_cpu.c
+	"cpu_core.h"
+	<windows.h>
+
+1575546662 d:\enseignements\2020_2021\master_esa\tp1_2019_2020\exo1\cpu_core.h
+	"cpu.h"
+	"lib_def.h"
+	"cpu_cfg.h"
+	"lib_mem.h"
+	"lib_str.h"
+
+1575546691 d:\enseignements\2020_2021\master_esa\tp1_2019_2020\exo1\lib_def.h
+	"cpu_def.h"
+	"cpu.h"
+
+1575546755 d:\enseignements\2020_2021\master_esa\tp1_2019_2020\exo1\lib_mem.h
+	"cpu.h"
+	"cpu_core.h"
+	"lib_def.h"
+	"lib_cfg.h"
+
+1504269208 d:\enseignements\2020_2021\master_esa\tp1_2019_2020\exo1\lib_cfg.h
+
+1575546817 d:\enseignements\2020_2021\master_esa\tp1_2019_2020\exo1\lib_str.h
+	"cpu.h"
+	"lib_def.h"
+	"lib_ascii.h"
+	"lib_cfg.h"
+	<stdio.h>
+
+1575546797 d:\enseignements\2020_2021\master_esa\tp1_2019_2020\exo1\lib_ascii.h
+	"cpu.h"
+	"lib_def.h"
+
+1575546631 source:d:\enseignements\2020_2021\master_esa\tp1_2019_2020\exo1\cpu_c.c
+	"cpu.h"
+	"cpu_core.h"
+	<windows.h>
+	<stdio.h>
+	<intrin.h>
+
+1503993724 source:d:\enseignements\2020_2021\master_esa\tp1_2019_2020\exo1\cpu_core.c
+	"cpu_core.h"
+	"cpu_cache.h"
+
+1503993724 d:\enseignements\2020_2021\master_esa\tp1_2019_2020\exo1\cpu_cache.h
+	<cpu.h>
+	<lib_def.h>
+	<cpu_cfg.h>
+
+1575545769 source:d:\enseignements\2020_2021\master_esa\tp1_2019_2020\exo1\lib_ascii.c
+	"lib_ascii.h"
+
+1575545826 source:d:\enseignements\2020_2021\master_esa\tp1_2019_2020\exo1\lib_math.c
+	"lib_math.h"
+
+1575546837 d:\enseignements\2020_2021\master_esa\tp1_2019_2020\exo1\lib_math.h
+	"cpu.h"
+	"cpu_core.h"
+	"lib_def.h"
+
+1503993786 source:d:\enseignements\2020_2021\master_esa\tp1_2019_2020\exo1\lib_mem.c
+	"lib_mem.h"
+	"lib_math.h"
+	"lib_str.h"
+
+1575546851 source:d:\enseignements\2020_2021\master_esa\tp1_2019_2020\exo1\lib_str.c
+	"lib_str.h"
+
+1575838267 source:d:\enseignements\2020_2021\master_esa\tp1_2019_2020\exo1\os_core.c
+	"ucos_ii.h"
+
+1575840652 source:d:\enseignements\2020_2021\master_esa\tp1_2019_2020\exo1\os_cpu_c.c
+	"lib_def.h"
+	"ucos_ii.h"
+	<windows.h>
+	<mmsystem.h>
+	<stdio.h>
+
+1575546933 source:d:\enseignements\2020_2021\master_esa\tp1_2019_2020\exo1\os_dbg_r.c
+	"ucos_ii.h"
+
+1575546913 source:d:\enseignements\2020_2021\master_esa\tp1_2019_2020\exo1\os_flag.c
+	"ucos_ii.h"
+
+1575546953 source:d:\enseignements\2020_2021\master_esa\tp1_2019_2020\exo1\os_mbox.c
+	"ucos_ii.h"
+
+1575546943 source:d:\enseignements\2020_2021\master_esa\tp1_2019_2020\exo1\os_mem.c
+	"ucos_ii.h"
+
+1575546976 source:d:\enseignements\2020_2021\master_esa\tp1_2019_2020\exo1\os_mutex.c
+	"ucos_ii.h"
+
+1575546965 source:d:\enseignements\2020_2021\master_esa\tp1_2019_2020\exo1\os_q.c
+	"ucos_ii.h"
+
+1575546995 source:d:\enseignements\2020_2021\master_esa\tp1_2019_2020\exo1\os_sem.c
+	"ucos_ii.h"
+
+1575547005 source:d:\enseignements\2020_2021\master_esa\tp1_2019_2020\exo1\os_task.c
+	"ucos_ii.h"
+
+1576105108 source:d:\enseignements\2020_2021\master_esa\tp1_2019_2020\exo1\os_time.c
+	"ucos_ii.h"
+
+1575547036 source:d:\enseignements\2020_2021\master_esa\tp1_2019_2020\exo1\os_tmr.c
+	"ucos_ii.h"
+
+1575861011 source:d:\enseignements\2020_2021\master_esa\tp1_2019_2020\exo1\pc.c
+	"includes.h"
+
+1575857410 d:\enseignements\2020_2021\master_esa\tp1_2019_2020\exo1\includes.h
+	<stdio.h>
+	<string.h>
+	<ctype.h>
+	<stdlib.h>
+	<conio.h>
+	<time.h>
+	<setjmp.h>
+	<windows.h>
+	<mmsystem.h>
+	"INCLUDE/ALLOC.H"
+	"INCLUDE/ASSERT.H"
+	"INCLUDE/BIOS.H"
+	"INCLUDE/CONIO.H"
+	"INCLUDE/DIR.H"
+	"INCLUDE/DOS.H"
+	"INCLUDE/ERRNO.H"
+	"INCLUDE/FCNTL.H"
+	"INCLUDE/FLOAT.H"
+	"INCLUDE/GENERIC.H"
+	"INCLUDE/LIMITS.H"
+	"INCLUDE/LOCALE.H"
+	"INCLUDE/MATH.H"
+	"INCLUDE/MEM.H"
+	"INCLUDE/PROCESS.H"
+	"INCLUDE/SHARE.H"
+	"INCLUDE/SIGNAL.H"
+	"INCLUDE/STDDEF.H"
+	"INCLUDE/STRING.H"
+	"INCLUDE/VALUES.H"
+	"os_cpu.h"
+	"os_cfg.h"
+	"ucos_ii.h"
+	"pc.h"
+
+667699260 d:\enseignements\2020_2021\master_esa\tp1_2019_2020\exo1\include\alloc.h
+
+667699260 d:\enseignements\2020_2021\master_esa\tp1_2019_2020\exo1\include\assert.h
+
+667699260 d:\enseignements\2020_2021\master_esa\tp1_2019_2020\exo1\include\bios.h
+
+667699260 d:\enseignements\2020_2021\master_esa\tp1_2019_2020\exo1\include\conio.h
+
+667699260 d:\enseignements\2020_2021\master_esa\tp1_2019_2020\exo1\include\dir.h
+
+1575856558 d:\enseignements\2020_2021\master_esa\tp1_2019_2020\exo1\include\dos.h
+
+667699260 d:\enseignements\2020_2021\master_esa\tp1_2019_2020\exo1\include\errno.h
+
+667699260 d:\enseignements\2020_2021\master_esa\tp1_2019_2020\exo1\include\fcntl.h
+
+667699260 d:\enseignements\2020_2021\master_esa\tp1_2019_2020\exo1\include\float.h
+
+667699260 d:\enseignements\2020_2021\master_esa\tp1_2019_2020\exo1\include\generic.h
+
+667699260 d:\enseignements\2020_2021\master_esa\tp1_2019_2020\exo1\include\limits.h
+
+667699260 d:\enseignements\2020_2021\master_esa\tp1_2019_2020\exo1\include\locale.h
+
+667699260 d:\enseignements\2020_2021\master_esa\tp1_2019_2020\exo1\include\math.h
+
+667699260 d:\enseignements\2020_2021\master_esa\tp1_2019_2020\exo1\include\mem.h
+
+667699260 d:\enseignements\2020_2021\master_esa\tp1_2019_2020\exo1\include\process.h
+
+667699260 d:\enseignements\2020_2021\master_esa\tp1_2019_2020\exo1\include\share.h
+
+667699260 d:\enseignements\2020_2021\master_esa\tp1_2019_2020\exo1\include\signal.h
+
+667699260 d:\enseignements\2020_2021\master_esa\tp1_2019_2020\exo1\include\stddef.h
+
+667699260 d:\enseignements\2020_2021\master_esa\tp1_2019_2020\exo1\include\string.h
+
+667699260 d:\enseignements\2020_2021\master_esa\tp1_2019_2020\exo1\include\values.h
+
+1164208598 d:\enseignements\2020_2021\master_esa\tp1_2019_2020\exo1\pc.h
+
+1575839801 source:d:\enseignements\2020_2021\master_esa\tp1_2019_2020\exo1\ucos_ii.c
+	"ucos_ii.h"
+
+1605226523 source:d:\enseignements\2020_2021\master_esa\tp1_2019_2020\exo1\main.c
+	"cpu.h"
+	"lib_mem.h"
+	"os.h"
+	"includes.h"
+	"app_cfg.h"
+	"pc.h"
+
+1575546475 source:d:\enseignements\2021_2022\master_esi\exo1\app_hooks.c
+	"os.h"
+
+1503993804 d:\enseignements\2021_2022\master_esi\exo1\os.h
+	"ucos_ii.h"
+
+1575839666 d:\enseignements\2021_2022\master_esi\exo1\ucos_ii.h
+	"app_cfg.h"
+	"os_cfg.h"
+	"os_cpu.h"
+	"os_trace.h"
+
+1576103876 d:\enseignements\2021_2022\master_esi\exo1\app_cfg.h
+	<stdarg.h>
+	<stdio.h>
+
+1575874195 d:\enseignements\2021_2022\master_esi\exo1\os_cfg.h
+
+1575838079 d:\enseignements\2021_2022\master_esi\exo1\os_cpu.h
+	"cpu.h"
+
+1575545810 d:\enseignements\2021_2022\master_esi\exo1\cpu.h
+	"cpu_def.h"
+	"cpu_cfg.h"
+
+1503993724 d:\enseignements\2021_2022\master_esi\exo1\cpu_def.h
+
+1504269208 d:\enseignements\2021_2022\master_esi\exo1\cpu_cfg.h
+
+1575546808 d:\enseignements\2021_2022\master_esi\exo1\os_trace.h
+	"os_cfg.h"
+	<os_trace_events.h>
+
+1575546491 source:d:\enseignements\2021_2022\master_esi\exo1\bsp_cpu.c
+	"cpu_core.h"
+	<windows.h>
+
+1575546662 d:\enseignements\2021_2022\master_esi\exo1\cpu_core.h
+	"cpu.h"
+	"lib_def.h"
+	"cpu_cfg.h"
+	"lib_mem.h"
+	"lib_str.h"
+
+1575546691 d:\enseignements\2021_2022\master_esi\exo1\lib_def.h
+	"cpu_def.h"
+	"cpu.h"
+
+1575546755 d:\enseignements\2021_2022\master_esi\exo1\lib_mem.h
+	"cpu.h"
+	"cpu_core.h"
+	"lib_def.h"
+	"lib_cfg.h"
+
+1504269208 d:\enseignements\2021_2022\master_esi\exo1\lib_cfg.h
+
+1575546817 d:\enseignements\2021_2022\master_esi\exo1\lib_str.h
+	"cpu.h"
+	"lib_def.h"
+	"lib_ascii.h"
+	"lib_cfg.h"
+	<stdio.h>
+
+1575546797 d:\enseignements\2021_2022\master_esi\exo1\lib_ascii.h
+	"cpu.h"
+	"lib_def.h"
+
+1575546631 source:d:\enseignements\2021_2022\master_esi\exo1\cpu_c.c
+	"cpu.h"
+	"cpu_core.h"
+	<windows.h>
+	<stdio.h>
+	<intrin.h>
+
+1503993724 source:d:\enseignements\2021_2022\master_esi\exo1\cpu_core.c
+	"cpu_core.h"
+	"cpu_cache.h"
+
+1503993724 d:\enseignements\2021_2022\master_esi\exo1\cpu_cache.h
+	<cpu.h>
+	<lib_def.h>
+	<cpu_cfg.h>
+
+1575545769 source:d:\enseignements\2021_2022\master_esi\exo1\lib_ascii.c
+	"lib_ascii.h"
+
+1575545826 source:d:\enseignements\2021_2022\master_esi\exo1\lib_math.c
+	"lib_math.h"
+
+1575546837 d:\enseignements\2021_2022\master_esi\exo1\lib_math.h
+	"cpu.h"
+	"cpu_core.h"
+	"lib_def.h"
+
+1503993786 source:d:\enseignements\2021_2022\master_esi\exo1\lib_mem.c
+	"lib_mem.h"
+	"lib_math.h"
+	"lib_str.h"
+
+1575546851 source:d:\enseignements\2021_2022\master_esi\exo1\lib_str.c
+	"lib_str.h"
+
+1605228016 source:d:\enseignements\2021_2022\master_esi\exo1\main.c
+	"cpu.h"
+	"lib_mem.h"
+	"os.h"
+	"includes.h"
+	"app_cfg.h"
+	"pc.h"
+
+1575857410 d:\enseignements\2021_2022\master_esi\exo1\includes.h
+	<stdio.h>
+	<string.h>
+	<ctype.h>
+	<stdlib.h>
+	<conio.h>
+	<time.h>
+	<setjmp.h>
+	<windows.h>
+	<mmsystem.h>
+	"INCLUDE/ALLOC.H"
+	"INCLUDE/ASSERT.H"
+	"INCLUDE/BIOS.H"
+	"INCLUDE/CONIO.H"
+	"INCLUDE/DIR.H"
+	"INCLUDE/DOS.H"
+	"INCLUDE/ERRNO.H"
+	"INCLUDE/FCNTL.H"
+	"INCLUDE/FLOAT.H"
+	"INCLUDE/GENERIC.H"
+	"INCLUDE/LIMITS.H"
+	"INCLUDE/LOCALE.H"
+	"INCLUDE/MATH.H"
+	"INCLUDE/MEM.H"
+	"INCLUDE/PROCESS.H"
+	"INCLUDE/SHARE.H"
+	"INCLUDE/SIGNAL.H"
+	"INCLUDE/STDDEF.H"
+	"INCLUDE/STRING.H"
+	"INCLUDE/VALUES.H"
+	"os_cpu.h"
+	"os_cfg.h"
+	"ucos_ii.h"
+	"pc.h"
+
+667699260 d:\enseignements\2021_2022\master_esi\exo1\include\alloc.h
+
+667699260 d:\enseignements\2021_2022\master_esi\exo1\include\assert.h
+
+667699260 d:\enseignements\2021_2022\master_esi\exo1\include\bios.h
+
+667699260 d:\enseignements\2021_2022\master_esi\exo1\include\conio.h
+
+667699260 d:\enseignements\2021_2022\master_esi\exo1\include\dir.h
+
+1575856558 d:\enseignements\2021_2022\master_esi\exo1\include\dos.h
+
+667699260 d:\enseignements\2021_2022\master_esi\exo1\include\errno.h
+
+667699260 d:\enseignements\2021_2022\master_esi\exo1\include\fcntl.h
+
+667699260 d:\enseignements\2021_2022\master_esi\exo1\include\float.h
+
+667699260 d:\enseignements\2021_2022\master_esi\exo1\include\generic.h
+
+667699260 d:\enseignements\2021_2022\master_esi\exo1\include\limits.h
+
+667699260 d:\enseignements\2021_2022\master_esi\exo1\include\locale.h
+
+667699260 d:\enseignements\2021_2022\master_esi\exo1\include\math.h
+
+667699260 d:\enseignements\2021_2022\master_esi\exo1\include\mem.h
+
+667699260 d:\enseignements\2021_2022\master_esi\exo1\include\process.h
+
+667699260 d:\enseignements\2021_2022\master_esi\exo1\include\share.h
+
+667699260 d:\enseignements\2021_2022\master_esi\exo1\include\signal.h
+
+667699260 d:\enseignements\2021_2022\master_esi\exo1\include\stddef.h
+
+667699260 d:\enseignements\2021_2022\master_esi\exo1\include\string.h
+
+667699260 d:\enseignements\2021_2022\master_esi\exo1\include\values.h
+
+1164208598 d:\enseignements\2021_2022\master_esi\exo1\pc.h
+
+1575838267 source:d:\enseignements\2021_2022\master_esi\exo1\os_core.c
+	"ucos_ii.h"
+
+1575840652 source:d:\enseignements\2021_2022\master_esi\exo1\os_cpu_c.c
+	"lib_def.h"
+	"ucos_ii.h"
+	<windows.h>
+	<mmsystem.h>
+	<stdio.h>
+
+1575546933 source:d:\enseignements\2021_2022\master_esi\exo1\os_dbg_r.c
+	"ucos_ii.h"
+
+1575546913 source:d:\enseignements\2021_2022\master_esi\exo1\os_flag.c
+	"ucos_ii.h"
+
+1575546953 source:d:\enseignements\2021_2022\master_esi\exo1\os_mbox.c
+	"ucos_ii.h"
+
+1575546943 source:d:\enseignements\2021_2022\master_esi\exo1\os_mem.c
+	"ucos_ii.h"
+
+1575546976 source:d:\enseignements\2021_2022\master_esi\exo1\os_mutex.c
+	"ucos_ii.h"
+
+1575546965 source:d:\enseignements\2021_2022\master_esi\exo1\os_q.c
+	"ucos_ii.h"
+
+1575546995 source:d:\enseignements\2021_2022\master_esi\exo1\os_sem.c
+	"ucos_ii.h"
+
+1575547005 source:d:\enseignements\2021_2022\master_esi\exo1\os_task.c
+	"ucos_ii.h"
+
+1576105108 source:d:\enseignements\2021_2022\master_esi\exo1\os_time.c
+	"ucos_ii.h"
+
+1575547036 source:d:\enseignements\2021_2022\master_esi\exo1\os_tmr.c
+	"ucos_ii.h"
+
+1575861011 source:d:\enseignements\2021_2022\master_esi\exo1\pc.c
+	"includes.h"
+
+1575839801 source:d:\enseignements\2021_2022\master_esi\exo1\ucos_ii.c
+	"ucos_ii.h"
+
+1575546475 source:d:\ensea\coursenensea\annee3\double-degree\cours\uef_r9\exo1\app_hooks.c
+	"os.h"
+
+1503993804 d:\ensea\coursenensea\annee3\double-degree\cours\uef_r9\exo1\os.h
+	"ucos_ii.h"
+
+1575839666 d:\ensea\coursenensea\annee3\double-degree\cours\uef_r9\exo1\ucos_ii.h
+	"app_cfg.h"
+	"os_cfg.h"
+	"os_cpu.h"
+	"os_trace.h"
+
+1576103876 d:\ensea\coursenensea\annee3\double-degree\cours\uef_r9\exo1\app_cfg.h
+	<stdarg.h>
+	<stdio.h>
+
+1575874195 d:\ensea\coursenensea\annee3\double-degree\cours\uef_r9\exo1\os_cfg.h
+
+1575838079 d:\ensea\coursenensea\annee3\double-degree\cours\uef_r9\exo1\os_cpu.h
+	"cpu.h"
+
+1575545810 d:\ensea\coursenensea\annee3\double-degree\cours\uef_r9\exo1\cpu.h
+	"cpu_def.h"
+	"cpu_cfg.h"
+
+1503993724 d:\ensea\coursenensea\annee3\double-degree\cours\uef_r9\exo1\cpu_def.h
+
+1504269208 d:\ensea\coursenensea\annee3\double-degree\cours\uef_r9\exo1\cpu_cfg.h
+
+1575546808 d:\ensea\coursenensea\annee3\double-degree\cours\uef_r9\exo1\os_trace.h
+	"os_cfg.h"
+	<os_trace_events.h>
+
+1575546491 source:d:\ensea\coursenensea\annee3\double-degree\cours\uef_r9\exo1\bsp_cpu.c
+	"cpu_core.h"
+	<windows.h>
+
+1575546662 d:\ensea\coursenensea\annee3\double-degree\cours\uef_r9\exo1\cpu_core.h
+	"cpu.h"
+	"lib_def.h"
+	"cpu_cfg.h"
+	"lib_mem.h"
+	"lib_str.h"
+
+1575546691 d:\ensea\coursenensea\annee3\double-degree\cours\uef_r9\exo1\lib_def.h
+	"cpu_def.h"
+	"cpu.h"
+
+1575546755 d:\ensea\coursenensea\annee3\double-degree\cours\uef_r9\exo1\lib_mem.h
+	"cpu.h"
+	"cpu_core.h"
+	"lib_def.h"
+	"lib_cfg.h"
+
+1504269208 d:\ensea\coursenensea\annee3\double-degree\cours\uef_r9\exo1\lib_cfg.h
+
+1575546817 d:\ensea\coursenensea\annee3\double-degree\cours\uef_r9\exo1\lib_str.h
+	"cpu.h"
+	"lib_def.h"
+	"lib_ascii.h"
+	"lib_cfg.h"
+	<stdio.h>
+
+1575546797 d:\ensea\coursenensea\annee3\double-degree\cours\uef_r9\exo1\lib_ascii.h
+	"cpu.h"
+	"lib_def.h"
+
+1575546631 source:d:\ensea\coursenensea\annee3\double-degree\cours\uef_r9\exo1\cpu_c.c
+	"cpu.h"
+	"cpu_core.h"
+	<windows.h>
+	<stdio.h>
+	<intrin.h>
+
+1503993724 source:d:\ensea\coursenensea\annee3\double-degree\cours\uef_r9\exo1\cpu_core.c
+	"cpu_core.h"
+	"cpu_cache.h"
+
+1503993724 d:\ensea\coursenensea\annee3\double-degree\cours\uef_r9\exo1\cpu_cache.h
+	<cpu.h>
+	<lib_def.h>
+	<cpu_cfg.h>
+
+1575545769 source:d:\ensea\coursenensea\annee3\double-degree\cours\uef_r9\exo1\lib_ascii.c
+	"lib_ascii.h"
+
+1575545826 source:d:\ensea\coursenensea\annee3\double-degree\cours\uef_r9\exo1\lib_math.c
+	"lib_math.h"
+
+1575546837 d:\ensea\coursenensea\annee3\double-degree\cours\uef_r9\exo1\lib_math.h
+	"cpu.h"
+	"cpu_core.h"
+	"lib_def.h"
+
+1503993786 source:d:\ensea\coursenensea\annee3\double-degree\cours\uef_r9\exo1\lib_mem.c
+	"lib_mem.h"
+	"lib_math.h"
+	"lib_str.h"
+
+1575546851 source:d:\ensea\coursenensea\annee3\double-degree\cours\uef_r9\exo1\lib_str.c
+	"lib_str.h"
+
+1575838267 source:d:\ensea\coursenensea\annee3\double-degree\cours\uef_r9\exo1\os_core.c
+	"ucos_ii.h"
+
+1575840652 source:d:\ensea\coursenensea\annee3\double-degree\cours\uef_r9\exo1\os_cpu_c.c
+	"lib_def.h"
+	"ucos_ii.h"
+	<windows.h>
+	<mmsystem.h>
+	<stdio.h>
+
+1575546933 source:d:\ensea\coursenensea\annee3\double-degree\cours\uef_r9\exo1\os_dbg_r.c
+	"ucos_ii.h"
+
+1575546913 source:d:\ensea\coursenensea\annee3\double-degree\cours\uef_r9\exo1\os_flag.c
+	"ucos_ii.h"
+
+1575546953 source:d:\ensea\coursenensea\annee3\double-degree\cours\uef_r9\exo1\os_mbox.c
+	"ucos_ii.h"
+
+1575546943 source:d:\ensea\coursenensea\annee3\double-degree\cours\uef_r9\exo1\os_mem.c
+	"ucos_ii.h"
+
+1575546976 source:d:\ensea\coursenensea\annee3\double-degree\cours\uef_r9\exo1\os_mutex.c
+	"ucos_ii.h"
+
+1575546965 source:d:\ensea\coursenensea\annee3\double-degree\cours\uef_r9\exo1\os_q.c
+	"ucos_ii.h"
+
+1575546995 source:d:\ensea\coursenensea\annee3\double-degree\cours\uef_r9\exo1\os_sem.c
+	"ucos_ii.h"
+
+1575547005 source:d:\ensea\coursenensea\annee3\double-degree\cours\uef_r9\exo1\os_task.c
+	"ucos_ii.h"
+
+1576105108 source:d:\ensea\coursenensea\annee3\double-degree\cours\uef_r9\exo1\os_time.c
+	"ucos_ii.h"
+
+1575547036 source:d:\ensea\coursenensea\annee3\double-degree\cours\uef_r9\exo1\os_tmr.c
+	"ucos_ii.h"
+
+1575861011 source:d:\ensea\coursenensea\annee3\double-degree\cours\uef_r9\exo1\pc.c
+	"includes.h"
+
+1575857410 d:\ensea\coursenensea\annee3\double-degree\cours\uef_r9\exo1\includes.h
+	<stdio.h>
+	<string.h>
+	<ctype.h>
+	<stdlib.h>
+	<conio.h>
+	<time.h>
+	<setjmp.h>
+	<windows.h>
+	<mmsystem.h>
+	"INCLUDE/ALLOC.H"
+	"INCLUDE/ASSERT.H"
+	"INCLUDE/BIOS.H"
+	"INCLUDE/CONIO.H"
+	"INCLUDE/DIR.H"
+	"INCLUDE/DOS.H"
+	"INCLUDE/ERRNO.H"
+	"INCLUDE/FCNTL.H"
+	"INCLUDE/FLOAT.H"
+	"INCLUDE/GENERIC.H"
+	"INCLUDE/LIMITS.H"
+	"INCLUDE/LOCALE.H"
+	"INCLUDE/MATH.H"
+	"INCLUDE/MEM.H"
+	"INCLUDE/PROCESS.H"
+	"INCLUDE/SHARE.H"
+	"INCLUDE/SIGNAL.H"
+	"INCLUDE/STDDEF.H"
+	"INCLUDE/STRING.H"
+	"INCLUDE/VALUES.H"
+	"os_cpu.h"
+	"os_cfg.h"
+	"ucos_ii.h"
+	"pc.h"
+
+667699260 d:\ensea\coursenensea\annee3\double-degree\cours\uef_r9\exo1\include\alloc.h
+
+667699260 d:\ensea\coursenensea\annee3\double-degree\cours\uef_r9\exo1\include\assert.h
+
+667699260 d:\ensea\coursenensea\annee3\double-degree\cours\uef_r9\exo1\include\bios.h
+
+667699260 d:\ensea\coursenensea\annee3\double-degree\cours\uef_r9\exo1\include\conio.h
+
+667699260 d:\ensea\coursenensea\annee3\double-degree\cours\uef_r9\exo1\include\dir.h
+
+1575856558 d:\ensea\coursenensea\annee3\double-degree\cours\uef_r9\exo1\include\dos.h
+
+667699260 d:\ensea\coursenensea\annee3\double-degree\cours\uef_r9\exo1\include\errno.h
+
+667699260 d:\ensea\coursenensea\annee3\double-degree\cours\uef_r9\exo1\include\fcntl.h
+
+667699260 d:\ensea\coursenensea\annee3\double-degree\cours\uef_r9\exo1\include\float.h
+
+667699260 d:\ensea\coursenensea\annee3\double-degree\cours\uef_r9\exo1\include\generic.h
+
+667699260 d:\ensea\coursenensea\annee3\double-degree\cours\uef_r9\exo1\include\limits.h
+
+667699260 d:\ensea\coursenensea\annee3\double-degree\cours\uef_r9\exo1\include\locale.h
+
+667699260 d:\ensea\coursenensea\annee3\double-degree\cours\uef_r9\exo1\include\math.h
+
+667699260 d:\ensea\coursenensea\annee3\double-degree\cours\uef_r9\exo1\include\mem.h
+
+667699260 d:\ensea\coursenensea\annee3\double-degree\cours\uef_r9\exo1\include\process.h
+
+667699260 d:\ensea\coursenensea\annee3\double-degree\cours\uef_r9\exo1\include\share.h
+
+667699260 d:\ensea\coursenensea\annee3\double-degree\cours\uef_r9\exo1\include\signal.h
+
+667699260 d:\ensea\coursenensea\annee3\double-degree\cours\uef_r9\exo1\include\stddef.h
+
+667699260 d:\ensea\coursenensea\annee3\double-degree\cours\uef_r9\exo1\include\string.h
+
+667699260 d:\ensea\coursenensea\annee3\double-degree\cours\uef_r9\exo1\include\values.h
+
+1164208598 d:\ensea\coursenensea\annee3\double-degree\cours\uef_r9\exo1\pc.h
+
+1575839801 source:d:\ensea\coursenensea\annee3\double-degree\cours\uef_r9\exo1\ucos_ii.c
+	"ucos_ii.h"
+
+1701268514 source:d:\ensea\coursenensea\annee3\double-degree\cours\uef_r9\exo1\main.c
+	"cpu.h"
+	"lib_mem.h"
+	"os.h"
+	"includes.h"
+	"app_cfg.h"
+	"pc.h"
+
+1575546475 source:d:\ensea\coursenensea\annee3\double-degree\esi_cours\uef_r9\exo1\app_hooks.c
+	"os.h"
+
+1503993804 d:\ensea\coursenensea\annee3\double-degree\esi_cours\uef_r9\exo1\os.h
+	"ucos_ii.h"
+
+1575839666 d:\ensea\coursenensea\annee3\double-degree\esi_cours\uef_r9\exo1\ucos_ii.h
+	"app_cfg.h"
+	"os_cfg.h"
+	"os_cpu.h"
+	"os_trace.h"
+
+1576103876 d:\ensea\coursenensea\annee3\double-degree\esi_cours\uef_r9\exo1\app_cfg.h
+	<stdarg.h>
+	<stdio.h>
+
+1575874195 d:\ensea\coursenensea\annee3\double-degree\esi_cours\uef_r9\exo1\os_cfg.h
+
+1575838079 d:\ensea\coursenensea\annee3\double-degree\esi_cours\uef_r9\exo1\os_cpu.h
+	"cpu.h"
+
+1575545810 d:\ensea\coursenensea\annee3\double-degree\esi_cours\uef_r9\exo1\cpu.h
+	"cpu_def.h"
+	"cpu_cfg.h"
+
+1503993724 d:\ensea\coursenensea\annee3\double-degree\esi_cours\uef_r9\exo1\cpu_def.h
+
+1504269208 d:\ensea\coursenensea\annee3\double-degree\esi_cours\uef_r9\exo1\cpu_cfg.h
+
+1575546808 d:\ensea\coursenensea\annee3\double-degree\esi_cours\uef_r9\exo1\os_trace.h
+	"os_cfg.h"
+	<os_trace_events.h>
+
+1575546491 source:d:\ensea\coursenensea\annee3\double-degree\esi_cours\uef_r9\exo1\bsp_cpu.c
+	"cpu_core.h"
+	<windows.h>
+
+1575546662 d:\ensea\coursenensea\annee3\double-degree\esi_cours\uef_r9\exo1\cpu_core.h
+	"cpu.h"
+	"lib_def.h"
+	"cpu_cfg.h"
+	"lib_mem.h"
+	"lib_str.h"
+
+1575546691 d:\ensea\coursenensea\annee3\double-degree\esi_cours\uef_r9\exo1\lib_def.h
+	"cpu_def.h"
+	"cpu.h"
+
+1575546755 d:\ensea\coursenensea\annee3\double-degree\esi_cours\uef_r9\exo1\lib_mem.h
+	"cpu.h"
+	"cpu_core.h"
+	"lib_def.h"
+	"lib_cfg.h"
+
+1504269208 d:\ensea\coursenensea\annee3\double-degree\esi_cours\uef_r9\exo1\lib_cfg.h
+
+1575546817 d:\ensea\coursenensea\annee3\double-degree\esi_cours\uef_r9\exo1\lib_str.h
+	"cpu.h"
+	"lib_def.h"
+	"lib_ascii.h"
+	"lib_cfg.h"
+	<stdio.h>
+
+1575546797 d:\ensea\coursenensea\annee3\double-degree\esi_cours\uef_r9\exo1\lib_ascii.h
+	"cpu.h"
+	"lib_def.h"
+
+1575546631 source:d:\ensea\coursenensea\annee3\double-degree\esi_cours\uef_r9\exo1\cpu_c.c
+	"cpu.h"
+	"cpu_core.h"
+	<windows.h>
+	<stdio.h>
+	<intrin.h>
+
+1503993724 source:d:\ensea\coursenensea\annee3\double-degree\esi_cours\uef_r9\exo1\cpu_core.c
+	"cpu_core.h"
+	"cpu_cache.h"
+
+1503993724 d:\ensea\coursenensea\annee3\double-degree\esi_cours\uef_r9\exo1\cpu_cache.h
+	<cpu.h>
+	<lib_def.h>
+	<cpu_cfg.h>
+
+1575545769 source:d:\ensea\coursenensea\annee3\double-degree\esi_cours\uef_r9\exo1\lib_ascii.c
+	"lib_ascii.h"
+
+1575545826 source:d:\ensea\coursenensea\annee3\double-degree\esi_cours\uef_r9\exo1\lib_math.c
+	"lib_math.h"
+
+1575546837 d:\ensea\coursenensea\annee3\double-degree\esi_cours\uef_r9\exo1\lib_math.h
+	"cpu.h"
+	"cpu_core.h"
+	"lib_def.h"
+
+1503993786 source:d:\ensea\coursenensea\annee3\double-degree\esi_cours\uef_r9\exo1\lib_mem.c
+	"lib_mem.h"
+	"lib_math.h"
+	"lib_str.h"
+
+1575546851 source:d:\ensea\coursenensea\annee3\double-degree\esi_cours\uef_r9\exo1\lib_str.c
+	"lib_str.h"
+
+1575838267 source:d:\ensea\coursenensea\annee3\double-degree\esi_cours\uef_r9\exo1\os_core.c
+	"ucos_ii.h"
+
+1575840652 source:d:\ensea\coursenensea\annee3\double-degree\esi_cours\uef_r9\exo1\os_cpu_c.c
+	"lib_def.h"
+	"ucos_ii.h"
+	<windows.h>
+	<mmsystem.h>
+	<stdio.h>
+
+1575546933 source:d:\ensea\coursenensea\annee3\double-degree\esi_cours\uef_r9\exo1\os_dbg_r.c
+	"ucos_ii.h"
+
+1575546913 source:d:\ensea\coursenensea\annee3\double-degree\esi_cours\uef_r9\exo1\os_flag.c
+	"ucos_ii.h"
+
+1575546953 source:d:\ensea\coursenensea\annee3\double-degree\esi_cours\uef_r9\exo1\os_mbox.c
+	"ucos_ii.h"
+
+1575546943 source:d:\ensea\coursenensea\annee3\double-degree\esi_cours\uef_r9\exo1\os_mem.c
+	"ucos_ii.h"
+
+1575546976 source:d:\ensea\coursenensea\annee3\double-degree\esi_cours\uef_r9\exo1\os_mutex.c
+	"ucos_ii.h"
+
+1575546965 source:d:\ensea\coursenensea\annee3\double-degree\esi_cours\uef_r9\exo1\os_q.c
+	"ucos_ii.h"
+
+1575546995 source:d:\ensea\coursenensea\annee3\double-degree\esi_cours\uef_r9\exo1\os_sem.c
+	"ucos_ii.h"
+
+1575547005 source:d:\ensea\coursenensea\annee3\double-degree\esi_cours\uef_r9\exo1\os_task.c
+	"ucos_ii.h"
+
+1576105108 source:d:\ensea\coursenensea\annee3\double-degree\esi_cours\uef_r9\exo1\os_time.c
+	"ucos_ii.h"
+
+1575547036 source:d:\ensea\coursenensea\annee3\double-degree\esi_cours\uef_r9\exo1\os_tmr.c
+	"ucos_ii.h"
+
+1575861011 source:d:\ensea\coursenensea\annee3\double-degree\esi_cours\uef_r9\exo1\pc.c
+	"includes.h"
+
+1575857410 d:\ensea\coursenensea\annee3\double-degree\esi_cours\uef_r9\exo1\includes.h
+	<stdio.h>
+	<string.h>
+	<ctype.h>
+	<stdlib.h>
+	<conio.h>
+	<time.h>
+	<setjmp.h>
+	<windows.h>
+	<mmsystem.h>
+	"INCLUDE/ALLOC.H"
+	"INCLUDE/ASSERT.H"
+	"INCLUDE/BIOS.H"
+	"INCLUDE/CONIO.H"
+	"INCLUDE/DIR.H"
+	"INCLUDE/DOS.H"
+	"INCLUDE/ERRNO.H"
+	"INCLUDE/FCNTL.H"
+	"INCLUDE/FLOAT.H"
+	"INCLUDE/GENERIC.H"
+	"INCLUDE/LIMITS.H"
+	"INCLUDE/LOCALE.H"
+	"INCLUDE/MATH.H"
+	"INCLUDE/MEM.H"
+	"INCLUDE/PROCESS.H"
+	"INCLUDE/SHARE.H"
+	"INCLUDE/SIGNAL.H"
+	"INCLUDE/STDDEF.H"
+	"INCLUDE/STRING.H"
+	"INCLUDE/VALUES.H"
+	"os_cpu.h"
+	"os_cfg.h"
+	"ucos_ii.h"
+	"pc.h"
+
+667699260 d:\ensea\coursenensea\annee3\double-degree\esi_cours\uef_r9\exo1\include\alloc.h
+
+667699260 d:\ensea\coursenensea\annee3\double-degree\esi_cours\uef_r9\exo1\include\assert.h
+
+667699260 d:\ensea\coursenensea\annee3\double-degree\esi_cours\uef_r9\exo1\include\bios.h
+
+667699260 d:\ensea\coursenensea\annee3\double-degree\esi_cours\uef_r9\exo1\include\conio.h
+
+667699260 d:\ensea\coursenensea\annee3\double-degree\esi_cours\uef_r9\exo1\include\dir.h
+
+1575856558 d:\ensea\coursenensea\annee3\double-degree\esi_cours\uef_r9\exo1\include\dos.h
+
+667699260 d:\ensea\coursenensea\annee3\double-degree\esi_cours\uef_r9\exo1\include\errno.h
+
+667699260 d:\ensea\coursenensea\annee3\double-degree\esi_cours\uef_r9\exo1\include\fcntl.h
+
+667699260 d:\ensea\coursenensea\annee3\double-degree\esi_cours\uef_r9\exo1\include\float.h
+
+667699260 d:\ensea\coursenensea\annee3\double-degree\esi_cours\uef_r9\exo1\include\generic.h
+
+667699260 d:\ensea\coursenensea\annee3\double-degree\esi_cours\uef_r9\exo1\include\limits.h
+
+667699260 d:\ensea\coursenensea\annee3\double-degree\esi_cours\uef_r9\exo1\include\locale.h
+
+667699260 d:\ensea\coursenensea\annee3\double-degree\esi_cours\uef_r9\exo1\include\math.h
+
+667699260 d:\ensea\coursenensea\annee3\double-degree\esi_cours\uef_r9\exo1\include\mem.h
+
+667699260 d:\ensea\coursenensea\annee3\double-degree\esi_cours\uef_r9\exo1\include\process.h
+
+667699260 d:\ensea\coursenensea\annee3\double-degree\esi_cours\uef_r9\exo1\include\share.h
+
+667699260 d:\ensea\coursenensea\annee3\double-degree\esi_cours\uef_r9\exo1\include\signal.h
+
+667699260 d:\ensea\coursenensea\annee3\double-degree\esi_cours\uef_r9\exo1\include\stddef.h
+
+667699260 d:\ensea\coursenensea\annee3\double-degree\esi_cours\uef_r9\exo1\include\string.h
+
+667699260 d:\ensea\coursenensea\annee3\double-degree\esi_cours\uef_r9\exo1\include\values.h
+
+1164208598 d:\ensea\coursenensea\annee3\double-degree\esi_cours\uef_r9\exo1\pc.h
+
+1575839801 source:d:\ensea\coursenensea\annee3\double-degree\esi_cours\uef_r9\exo1\ucos_ii.c
+	"ucos_ii.h"
+
+1701991150 source:d:\ensea\coursenensea\annee3\double-degree\esi_cours\uef_r9\exo1\main.c
+	"cpu.h"
+	"lib_mem.h"
+	"os.h"
+	"includes.h"
+	"app_cfg.h"
+	"pc.h"
+	"includes.h"
+
