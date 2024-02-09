@@ -1,0 +1,11 @@
+prefix=/home/jetson/Desktop/TP_Paul_Etienne_Jiangbo/cuda-lab-student_2023/external/libtiff
+exec_prefix=/home/jetson/Desktop/TP_Paul_Etienne_Jiangbo/cuda-lab-student_2023/external/libtiff
+libdir=/home/jetson/Desktop/TP_Paul_Etienne_Jiangbo/cuda-lab-student_2023/external/libtiff/lib
+includedir=/home/jetson/Desktop/TP_Paul_Etienne_Jiangbo/cuda-lab-student_2023/external/libtiff/include
+
+Name: libtiff
+Description:  Tag Image File Format (TIFF) library.
+Version: 4.0.10
+Libs: -L/home/jetson/Desktop/TP_Paul_Etienne_Jiangbo/cuda-lab-student_2023/external/libtiff/lib -ltiff
+Libs.private: 
+Cflags: -I/home/jetson/Desktop/TP_Paul_Etienne_Jiangbo/cuda-lab-student_2023/external/libtiff/include

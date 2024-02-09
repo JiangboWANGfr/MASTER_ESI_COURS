@@ -1,0 +1,62 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+COMPARE_H__	2-Convolutions/include/compare.h	/^#define COMPARE_H__$/;"	d
+CUDA_CHECK	1-Obfuscation/include/obfuscate.hpp	/^#define CUDA_CHECK(/;"	d
+Elapsed	2-Convolutions/include/timer.h	/^    float Elapsed()$/;"	f	struct:GpuTimer
+FILTER_WIDTH	2-Convolutions/include/utils.h	/^#define FILTER_WIDTH /;"	d
+GPU_TIMER_H__	2-Convolutions/include/timer.h	/^#define GPU_TIMER_H__$/;"	d
+GpuTimer	2-Convolutions/include/timer.h	/^    GpuTimer()$/;"	f	struct:GpuTimer
+GpuTimer	2-Convolutions/include/timer.h	/^struct GpuTimer$/;"	s
+REFERENCE_H__	2-Convolutions/include/reference_calc.h	/^#define REFERENCE_H__$/;"	d
+Start	2-Convolutions/include/timer.h	/^    void Start()$/;"	f	struct:GpuTimer
+Stop	2-Convolutions/include/timer.h	/^    void Stop()$/;"	f	struct:GpuTimer
+UTILS_H__	2-Convolutions/include/utils.h	/^#define UTILS_H__$/;"	d
+channelConvolution	2-Convolutions/src/reference_calc.cpp	/^void channelConvolution(const unsigned char* const channel,$/;"	f
+check	2-Convolutions/include/utils.h	/^void check(T err, const char* const func, const char* const file, const int line) {$/;"	f
+checkCudaErrors	2-Convolutions/include/utils.h	/^#define checkCudaErrors(/;"	d
+checkResultsAutodesk	2-Convolutions/include/utils.h	/^void checkResultsAutodesk(const T* const ref, const T* const gpu, size_t numElem, double variance, size_t tolerance)$/;"	f
+checkResultsEps	2-Convolutions/include/utils.h	/^void checkResultsEps(const T* const ref, const T* const gpu, size_t numElem, double eps1, double eps2) {$/;"	f
+checkResultsExact	2-Convolutions/include/utils.h	/^void checkResultsExact(const T* const ref, const T* const gpu, size_t numElem) {$/;"	f
+clamp	2-Convolutions/include/utils.h	/^T clamp(T value, T min, T max) {$/;"	f
+cleanUp	2-Convolutions/src/HW2.cpp	/^void cleanUp(void)$/;"	f
+compareImages	2-Convolutions/src/compare.cpp	/^void compareImages(std::string reference_filename, std::string test_filename, bool useEpsCheck,$/;"	f
+compare_images	1-Obfuscation/src/reference.cpp	/^void compare_images(T *buffer_1, T *buffer_2, uint32_t width, uint32_t height)$/;"	f
+d_inputImageRGBA__	2-Convolutions/src/HW2.cpp	/^uchar4 *d_inputImageRGBA__;$/;"	v
+d_outputImageRGBA__	2-Convolutions/src/HW2.cpp	/^uchar4 *d_outputImageRGBA__;$/;"	v
+end	1-Obfuscation/src/main.cpp	/^cudaEvent_t start_memory, start_kernel, start_copyback, end;$/;"	v
+exercise_1	1-Obfuscation/src/main.cpp	/^void exercise_1(void)$/;"	f
+exercise_2	1-Obfuscation/src/main.cpp	/^void exercise_2(void)$/;"	f
+get_B	1-Obfuscation/include/obfuscate.hpp	/^static inline __host__ __device__ uint8_t get_B(uint32_t value) {return (value & 0x00FF0000) >> 16;}$/;"	f
+get_B	2-Convolutions/include/utils.h	/^static inline __host__ __device__ uint8_t get_B(uint32_t value) {return (value & 0x00FF0000) >> 16;}$/;"	f
+get_G	1-Obfuscation/include/obfuscate.hpp	/^static inline __host__ __device__ uint8_t get_G(uint32_t value) {return (value & 0x0000FF00) >> 8;}$/;"	f
+get_G	2-Convolutions/include/utils.h	/^static inline __host__ __device__ uint8_t get_G(uint32_t value) {return (value & 0x0000FF00) >> 8;}$/;"	f
+get_R	1-Obfuscation/include/obfuscate.hpp	/^static inline __host__ __device__ uint8_t get_R(uint32_t value) {return value & 0x000000FF;}$/;"	f
+get_R	2-Convolutions/include/utils.h	/^static inline __host__ __device__ uint8_t get_R(uint32_t value) {return value & 0x000000FF;}$/;"	f
+h_filter__	2-Convolutions/src/HW2.cpp	/^float *h_filter__;$/;"	v
+image_height	2-Convolutions/src/HW2.cpp	/^uint32_t image_width, image_height;$/;"	v
+image_width	2-Convolutions/src/HW2.cpp	/^uint32_t image_width, image_height;$/;"	v
+main	1-Obfuscation/src/main.cpp	/^int main(int argc, char *argv[])$/;"	f
+main	2-Convolutions/src/main.cpp	/^int main(int argc, char **argv) {$/;"	f
+make_RGB	1-Obfuscation/include/obfuscate.hpp	/^static inline __host__ __device__ uint32_t make_RGB(uint8_t R, uint8_t G, uint8_t B) { return R + (G << 8) + (B << 16) + 0xFF000000;}$/;"	f
+make_RGB	2-Convolutions/include/utils.h	/^static inline __host__ __device__ uint32_t make_RGB(uint8_t R, uint8_t G, uint8_t B) { return R + (G << 8) + (B << 16) + 0xFF000000;}$/;"	f
+numCols	2-Convolutions/src/HW2.cpp	/^size_t numCols() { return image_width; }$/;"	f
+numRows	2-Convolutions/src/HW2.cpp	/^size_t numRows() { return image_height; }$/;"	f
+postProcess	2-Convolutions/src/HW2.cpp	/^void postProcess(const std::string& output_file, uchar4* data_ptr) {$/;"	f
+preProcess	2-Convolutions/src/HW2.cpp	/^void preProcess(uchar4 **h_inputImageRGBA, uchar4 **h_outputImageRGBA,$/;"	f
+read_tiff_grayscale	common/src/tiffutil.cpp	/^int read_tiff_grayscale(const std::string &filename, uint8_t **image_buffer, uint32_t *image_width, uint32_t *image_height)$/;"	f
+read_tiff_rgba	common/src/tiffutil.cpp	/^int read_tiff_rgba(const std::string &filename, uint32_t **image_buffer, uint32_t *image_width, uint32_t *image_height)$/;"	f
+referenceCalculation	2-Convolutions/src/reference_calc.cpp	/^void referenceCalculation(const uchar4* const rgbaImage, uchar4 *const outputImage,$/;"	f
+reference_exercise_1	1-Obfuscation/src/reference.cpp	/^void reference_exercise_1(uint8_t *in_buffer_1, uint8_t *in_buffer_2, uint32_t width, uint32_t height, uint8_t *out_buffer)$/;"	f
+reference_exercise_2	1-Obfuscation/src/reference.cpp	/^void reference_exercise_2(uint32_t *in_buffer_1, uint32_t *in_buffer_2, uint32_t width, uint32_t height, uint32_t *out_buffer)$/;"	f
+start	2-Convolutions/include/timer.h	/^    cudaEvent_t start;$/;"	m	struct:GpuTimer
+start_copyback	1-Obfuscation/src/main.cpp	/^cudaEvent_t start_memory, start_kernel, start_copyback, end;$/;"	v
+start_kernel	1-Obfuscation/src/main.cpp	/^cudaEvent_t start_memory, start_kernel, start_copyback, end;$/;"	v
+start_memory	1-Obfuscation/src/main.cpp	/^cudaEvent_t start_memory, start_kernel, start_copyback, end;$/;"	v
+stop	2-Convolutions/include/timer.h	/^    cudaEvent_t stop;$/;"	m	struct:GpuTimer
+write_tiff_grayscale	common/src/tiffutil.cpp	/^int write_tiff_grayscale(const std::string &filename, uint8_t *out_buffer, const uint32_t image_width, const uint32_t image_height)$/;"	f
+write_tiff_rgba	common/src/tiffutil.cpp	/^int write_tiff_rgba(const std::string &filename, uint32_t *out_buffer, const uint32_t image_width, const uint32_t image_height)$/;"	f
+~GpuTimer	2-Convolutions/include/timer.h	/^    ~GpuTimer()$/;"	f	struct:GpuTimer
