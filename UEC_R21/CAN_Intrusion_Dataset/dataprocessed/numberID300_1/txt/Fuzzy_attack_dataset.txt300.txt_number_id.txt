@@ -1,0 +1,10 @@
+ID: 0164   Count: 1273
+ID: 0220   Count: 1261
+ID: 0153   Count: 1259
+ID: 01f1   Count: 1256
+ID: 04b0   Count: 1227
+ID: 05a0   Count: 1217
+ID: 02c0   Count: 1208
+ID: 05a2   Count: 1204
+ID: 04b1   Count: 1198
+TotalID: 11103

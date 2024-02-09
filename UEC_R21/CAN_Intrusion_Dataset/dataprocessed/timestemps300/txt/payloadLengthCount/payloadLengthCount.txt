@@ -1,0 +1,1 @@
+Impersonation_attack_dataset_timestamp.txt300.txt  in time:300.000477    total ID count: 616917    payload length count: 0
